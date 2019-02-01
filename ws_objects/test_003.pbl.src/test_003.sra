@@ -12,6 +12,10 @@ end forward
 
 global type test_003 from application
 string appname = "test_003"
+string themestylename = "Do Not Use Themes"
+long richtextedittype = 2
+long richtexteditversion = 1
+string richtexteditkey = ""
 end type
 global test_003 test_003
 
@@ -32,7 +36,6 @@ destroy(error)
 destroy(message)
 end on
 
-event open;//hjjhg
-
+event open;//
 end event
 
