@@ -35,6 +35,6 @@ destroy(error)
 destroy(message)
 end on
 
-event open;//messagebox)
+event open;open(w_1)
 end event
 
