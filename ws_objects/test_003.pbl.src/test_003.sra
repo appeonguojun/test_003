@@ -12,8 +12,8 @@ end forward
 
 global type test_003 from application
 string appname = "test_003"
-long richtextedittype = 2
-long richtexteditversion = 1
+long richtextedittype = 1
+long richtexteditversion = 0
 string richtexteditkey = ""
 end type
 global test_003 test_003
