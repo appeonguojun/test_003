@@ -14,7 +14,7 @@ global type test_003 from application
 string appname = "test_003"
 string themepath = "C:\Program Files (x86)\Appeon\Shared\PowerBuilder\theme190"
 string themename = "Do Not Use Themes"
-long richtextedittype = 2
+long richtextedittype = 0
 long richtexteditversion = 1
 string richtexteditkey = ""
 end type
