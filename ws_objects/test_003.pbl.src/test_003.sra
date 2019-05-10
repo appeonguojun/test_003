@@ -12,8 +12,10 @@ end forward
 
 global type test_003 from application
 string appname = "test_003"
-long richtextedittype = 1
-long richtexteditversion = 0
+string themepath = "C:\Program Files (x86)\Appeon\Shared\PowerBuilder\theme190"
+string themename = "Do Not Use Themes"
+long richtextedittype = 2
+long richtexteditversion = 1
 string richtexteditkey = ""
 end type
 global test_003 test_003
@@ -36,5 +38,6 @@ destroy(message)
 end on
 
 event open;open(w_1)
+
 end event
 
