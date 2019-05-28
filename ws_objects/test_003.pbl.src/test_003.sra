@@ -13,7 +13,7 @@ end forward
 global type test_003 from application
 string appname = "test_003"
 string themepath = "C:\Program Files (x86)\Appeon\Shared\PowerBuilder\theme190"
-string themename = "Dark"
+string themename = "Flat Design Dark"
 long richtextedittype = 0
 long richtexteditversion = 1
 string richtexteditkey = ""
@@ -37,7 +37,9 @@ destroy(error)
 destroy(message)
 end on
 
-event open;open(w_1)
+event open;ApplyTheme("D:\Support\PB2019\orca\test_003_0510\theme190\Flat Design Blue")
+Messagebox('',GetTheme(True))
+open(w_1)
 
 end event
 
