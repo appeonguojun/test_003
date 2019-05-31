@@ -1,0 +1,16 @@
+﻿$PBExportHeader$p_t2776_orca_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:Test_CreateByPB-x64.exe,res.pbr,0,1,1
+CMP:0,0,0,3,0,0,1
+COM:Appeon
+DES:Appeon Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:t2776_orca.pbl,,1
+OBJ:D:\Support\PB2017\2776-ORCA\t2776_orca.pbl,w_1,w
+OBJ:D:\Support\PB2017\2776-ORCA\t2776_orca.pbl,t2776_orca,a

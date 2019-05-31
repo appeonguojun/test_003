@@ -1,0 +1,13 @@
+start session 
+;scc set connect property localprojpath "2776-ORCA" 
+;localprojpath must point to the parent directory of ws_objects folder
+scc set connect property logfile  "orca.log" 
+scc set connect property logappend false
+scc set connect property deletetempfiles "true"
+scc connect offline
+scc set target "t2776_orca.pbt" "refresh_all  importonly"
+scc refresh target "3pass" 
+build library "t2776_orca.pbl" "" pbd 
+build executable "test_createbyorca-x64.exe" "image\function.ico" "res.pbr" "y" newvstylecontrols x64
+scc close
+end session
