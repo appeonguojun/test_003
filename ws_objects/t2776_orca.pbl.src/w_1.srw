@@ -43,6 +43,10 @@ destroy(this.p_1)
 destroy(this.cb_1)
 end on
 
+event open;messagebox('','1')
+
+end event
+
 type cb_2 from commandbutton within w_1
 integer x = 1083
 integer y = 248
